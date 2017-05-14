@@ -14,6 +14,9 @@ function! pak_vim#init()
     syn keyword cType pak_ui8
     syn keyword cType pak_ui16
     syn keyword cType pak_ui32
+    syn keyword cType pak_bool
+    syn keyword cConstant PAK_TRUE
+    syn keyword cConstant PAK_FALSE
 
     syn keyword cType pak_list
     syn keyword cType pak_node
