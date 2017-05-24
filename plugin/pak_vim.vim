@@ -7,6 +7,7 @@ function! pak_vim#init()
     " PAK Main
     syn keyword cConditional pak_arr_foreach
     syn keyword cConditional pak_assert
+    syn keyword cConditional pak_assertp
     syn keyword cConditional pak_static_assert
 
     syn keyword cType pak_i8
